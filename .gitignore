@@ -1,0 +1,32 @@
+# Node modules (BIG, unnecessary for repo)
+node_modules/
+
+# Environment variables (never commit secrets!)
+.env
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE-specific folders (VS Code, etc.)
+.vscode/
+.idea/
+
+# Build and cache files
+dist/
+build/
+.cache/
+
+# Others (optional but smart)
+.env.local
+.env.*.local
+*.tgz
+.env
+node_modules
